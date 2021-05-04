@@ -1,0 +1,27 @@
+:root {
+    --color: #FFC600;
+    --espaciado: 10px;
+    --distorcion: 10px;
+}
+
+body {
+    background-color: #4B0066;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;  
+    font-size: 50px; 
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+.h1 {
+    color: var(--color);
+}
+
+img {
+    padding: var(--espaciado);
+    background: var(--color);
+    filter: blur(var(--distorcion));
+}

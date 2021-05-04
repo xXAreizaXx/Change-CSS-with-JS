@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./Images/change.ico" type="image/x-icon">
+    <title>Change CSS with JS</title>
+</head>
+
+<body>
+    <h2>Cambiar CSS con <span class="h1">JS</span></h2>
+    <div class="controls">
+        <label for="espaciado">Espaciado: </label>
+        <input type="range" name="espaciado" min="10" max="200" value="10" data-sizing="px">
+        
+        <label for="distorcion">Distorcion: </label>
+        <input type="range" name="distorcion" min="0" max="25" value="10" data-sizing="px">
+        
+        <label for="color">Color: </label>
+        <input type="color" name="color" value="#FFC600">
+    </div>
+
+    <img src="./Images/city.jpg">
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
